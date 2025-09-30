@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import Carrera from "../carrera";
-import Hobbies from "../hobbies";
-import Matricula from "../matricula";
-import Name from "../name";
+import Carrera from "../../components/ui/carrera";
+import Hobbies from "../../components/ui/hobbies";
+import Matricula from "../../components/ui/matricula";
+import Name from "../../components/ui/name";
 
 export default function Index() {
   const [count, setCount] = useState(0);
